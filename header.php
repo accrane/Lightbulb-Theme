@@ -82,7 +82,16 @@
         </div>
         <div class="collapse navbar-collapse">
        
-
+           <?php /* Primary navigation */
+            wp_nav_menu( array(
+              'menu' => 'primary',
+              'depth' => 2,
+              'container' => false,
+              'menu_class' => 'nav navbar-nav',
+              //Process nav menu using our custom nav walker
+              'walker' => new wp_bootstrap_navwalker())
+            );
+            ?>
       
         </div><!--/.nav-collapse -->
      
