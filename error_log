@@ -1,0 +1,1 @@
+[25-Sep-2015 11:07:21 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/austincr/public_html/me/wp-content/themes/lightbulb/index.php on line 6
